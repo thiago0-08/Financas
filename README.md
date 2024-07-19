@@ -1,6 +1,8 @@
-esse projeto foi feito pra ser um exemplo de controle de financas, nele tem 2 grafico e cada um recebe dados de 1 formulario, nesses grafico voce pode preencher com informacoes basicas de gastos como de alimentação, transporte, lazer e outros. alem de coloca o seu salario e despessas fixas.
-Tambem tem a opção de extrato que e uma calculadora para que voce vai coloca o seu saldo e o valor do produto que vc quer compra ele vai dizer se o valor que voce pode ou nao atrapalha nas suas financas. 
-eu tambem coloquei uma tela de login e de cadastro que salva o seu dados cadastrado no banco e retorna em "PERFIL". alem de vc pode coloca o seu cartao no site 
+Este projeto é um exemplo de controle de finanças. Ele possui dois gráficos que recebem dados de formulários distintos. Um gráfico é preenchido com informações básicas de gastos, como alimentação, transporte, lazer e outros. O outro gráfico é atualizado com base no salário e despesas fixas inseridos pelo usuário.
+
+Além disso, o projeto inclui uma calculadora de extrato, onde o usuário pode inserir seu saldo e o valor de um produto que deseja comprar. A calculadora informa se a compra comprometerá suas finanças.
+
+O projeto também possui telas de login e cadastro, onde os dados do usuário são salvos no banco de dados e exibidos na página de perfil. Outra funcionalidade é a possibilidade de registrar informações do cartão de crédito no site.
 
 ![Captura de tela 2024-07-19 173212](https://github.com/user-attachments/assets/f4275e4e-83ef-42cb-9521-58dd64f889a1)
 ![Captura de tela 2024-07-19 173243](https://github.com/user-attachments/assets/d18a511e-8370-4ad7-9489-f2373ed053fa)
