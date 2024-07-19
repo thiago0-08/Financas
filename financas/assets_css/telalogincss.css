@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #201b2c;
+}
+
+/*section*/
+
+h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+    color: #63FF88;
+}
+
+.foto-left{
+    width: 80%;
+    height: 100vh;
+}
+
+.section--1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--2{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*loginscreen*/
+
+.main--login{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 450px;
+    border: 1px solid #63ff88;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+form{
+    width: 100%;
+    height: 70%;
+}
+
+.formulario--dados{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 30px;
+}
+
+.formulario--dados p {
+    margin-bottom: 15px;
+    color: #63FF88;
+}
+
+/*botao e inputs*/
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn input{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #63ff88;
+    background-color: #63ff88;
+    color: #201b2c;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn input:hover{
+    background-color: #201b2c;
+    color: #63FF88;
+    transition: .4s;
+    border: 1px solid #63FF88;
+}
+
+.inputsdados input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #63ff88;
+    outline: none;
+    background-color: #3a3349;
+    color: #63FF88;
+}
+
+
+
+/*linha separar*/
+
+.linha1, .linha2{
+    width: 100%;
+
+}
+
+
+.linhaseparar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.linhaseparar p {
+    color: #63FF88;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+hr{
+    border-color: #63FF88;
+}
+
+
+/*foooter*/
+
+.footer--dados{
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer--dados a{
+    text-decoration: none;
+    color: #63FF88;
+}
+
+a:hover{
+    color: #fff;
+    transition: 0.4s;
+}

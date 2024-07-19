@@ -1,0 +1,99 @@
+/* Estilo geral do formulário */
+.formulario {
+  background-color: #f9f9f9; /* Tom mais neutro e moderno */
+  color: #333; /* Texto mais legível */
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px; /* Bordas um pouco mais sutis */
+  width: 100%; /* Ajusta-se ao tamanho do container pai */
+  max-width: 500px; /* Largura máxima para maior controle */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo dos títulos */
+.formulario h2 {
+  font-size: 22px; /* Tamanho de fonte um pouco maior */
+  margin-bottom: 15px;
+  color: #444; /* Cor mais escura para melhor contraste */
+}
+
+/* Estilo dos grupos de entrada */
+.formulario .input-group {
+  margin-bottom: 15px; /* Aumenta o espaçamento entre os campos */
+}
+
+/* Estilo dos rótulos dos campos de entrada */
+.formulario .input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold; /* Maior destaque para rótulos */
+  color: #555; /* Cor do texto dos rótulos */
+}
+
+/* Estilo dos campos de entrada */
+.formulario .input-group input {
+  width: 100%;
+  padding: 10px; /* Aumenta o preenchimento interno */
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Cor de borda mais suave */
+  box-sizing: border-box;
+  font-size: 16px; /* Aumenta o tamanho da fonte */
+  transition: border-color 0.3s ease; /* Transição suave para foco */
+}
+
+/* Efeito de foco nos campos de entrada */
+.formulario .input-group input:focus {
+  border-color: #4CAF50; /* Cor de borda no foco */
+  outline: none; /* Remove o contorno padrão do navegador */
+}
+
+/* Estilo dos botões */
+.formulario button {
+  padding: 12px 25px; /* Aumenta o preenchimento para maior conforto */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+/* Efeito de hover para botões */
+.formulario button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo específico para o botão do formulário */
+.botao_form {
+  background-color: #007bff; /* Tom azul mais moderno */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px; /* Consistência com outros botões */
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão do formulário */
+.botao_form:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo específico para o botão de zerar */
+.botao_zera {
+  background-color: #dc3545; /* Tom vermelho mais moderno */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px; /* Consistência com outros botões */
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão de zerar */
+.botao_zera:hover {
+  background-color: #c82333;
+}

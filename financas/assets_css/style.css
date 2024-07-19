@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00527c;
+  
+}
+
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  flex-direction: column;
+  background-color: rgba(255,255,255, 1);
+}
+
+h1{
+  font-size: 3rem;
+  color: black;
+}
+
+.dados-login{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+input{
+ /* margin: 10px;
+  width: 20rem;*/
+  padding: 10px;
+  border-top: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+::placeholder{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-btn{
+  width: 10rem;
+  padding: 8px;
+  border-radius: 7px;
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #00527c;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-btn:hover{
+  border: 1px solid rgb(148, 148, 223);
+  background-color: #fff;
+  color: black;
+  transition: .5s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forgotPassword{
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.linha{
+  margin-bottom: 1rem;
+  width: 90%;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  color: black;
+}
+
+.risco {
+  background-color: gray;
+  height: 1px;
+  width: 40%;
+}
+
+.login{
+  background-color: #6fc209;
+}
+
+
+.left-login{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
